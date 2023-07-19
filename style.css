@@ -133,6 +133,7 @@ ul>li {
     font-size: 1.1rem;
     border: 0px;
     margin-left: 10px;
+    justify-content: space-between;
 }
 
 
@@ -142,6 +143,67 @@ ul>li {
 }
 
 /* Bannar Style End */
+
+
+
+
+
+
+/* Gamer style Start */
+
+.gamer-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    gap: 50px;
+    padding: 0px 150px;
+    justify-content: space-between;
+}
+
+.gamer-img img {
+    width: 650px;
+}
+
+.gamer-details {
+    text-align: end;
+    color: #534C64;
+}
+
+
+/* END */
+
+
+
+
+
+/* Careers Styles Start */
+
+
+.careers-container{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: flex;
+    padding-left: 150px;
+    gap: 50px;
+    color: white;
+    margin-top: -200px;
+    align-items: center;
+}
+
+.careers-double-colum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.careers-right-text{
+    text-align: right;
+}
+
+.careers-img img{
+    width: 700px;
+}
+
+
+
+
 
 
 /* Online Games Style Start */
@@ -229,14 +291,14 @@ ul>li {
     bottom: 300px;
 }
 
-.bannar-right{
+.bannar-right {
     text-align: start;
     margin-left: 100px;
 }
 
-.second-half-img{
+.second-half-img {
     width: 100%;
-    
+
 }
 
 /* More Games Style Start */
@@ -276,7 +338,7 @@ ul>li {
     color: #0B0223;
 }
 
-.four-card{
+.four-card {
     justify-content: center;
     align-items: center;
 }
@@ -284,7 +346,7 @@ ul>li {
 /* footer Style Start */
 
 
-footer{
+footer {
     background: #0B0223;
     display: flex;
     justify-content: center;
@@ -292,31 +354,32 @@ footer{
     align-items: center;
 }
 
-.logo-amar-color{
+.logo-amar-color {
     color: white;
 }
 
-.footer-nav{
+.footer-nav {
     display: flex;
 }
 
-.footer-nav li{
+.footer-nav li {
     color: white;
 }
 
-.footer-icon ul li{
+.footer-icon ul li {
     color: #FFF;
 }
 
-footer .fa-twitter{
+footer .fa-twitter {
     color: white;
 }
 
-.footer-condition ul li{
+.footer-condition ul li {
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
 }
-.footer-copyright p{
+
+.footer-copyright p {
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
 }
