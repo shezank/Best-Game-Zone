@@ -28,7 +28,7 @@ ul {
 
 .log-g {
     color: #FF42A5;
-    font-size: 2.8rem;
+    font-size: 3rem;
     padding-left: 10px;
     font-weight: 700;
 }
@@ -195,7 +195,7 @@ ul>li {
 
 .bannar-info {
     display: flex;
-    margin: 100px 150px;
+    margin: 100px 150px 0px 150px;
     justify-content: space-between;
     text-align: right;
 }
@@ -227,6 +227,16 @@ ul>li {
     position: relative;
     right: 400px;
     bottom: 300px;
+}
+
+.bannar-right{
+    text-align: start;
+    margin-left: 100px;
+}
+
+.second-half-img{
+    width: 100%;
+    
 }
 
 /* More Games Style Start */
@@ -286,17 +296,20 @@ footer{
     color: white;
 }
 
-.footer-nav ul{
+.footer-nav{
     display: flex;
+}
+
+.footer-nav li{
+    color: white;
 }
 
 .footer-icon ul li{
     color: #FFF;
 }
 
-footer {
+footer .fa-twitter{
     color: white;
-    font-size: 2rem;
 }
 
 .footer-condition ul li{
