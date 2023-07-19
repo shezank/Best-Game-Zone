@@ -309,6 +309,7 @@ ul>li {
     align-items: center;
     text-align: start;
     padding: 100px 150px 0px;
+    padding-bottom: 20px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
@@ -316,6 +317,7 @@ ul>li {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    
 }
 
 .game-card {
@@ -386,4 +388,80 @@ footer .fa-twitter {
 .footer-copyright p {
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Device Responsive Style Start */
+
+@media screen and (max-width: 576px) {
+    nav,
+    .bannar,
+    .gamer-container,
+    .bannar-info,
+    .careers-container
+    {
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+        margin-top: -00px;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+    .gamer-details{
+        text-align: center;
+    }
+    .careers-container{
+        margin-top: -400px;
+    }
+    .careers-img img{
+        width: 100%;
+    }
+
+    .online-games-card{
+        grid-template-columns: 1fr;
+    }
+
+    .online-games {
+        margin: 10px;
+    }
+    .bannar-info{
+        margin: 10px;
+    }
+    .bannar-info-text{
+        margin: 10px;
+        text-align: center;
+    }
+    .bannar-info-img img{
+        width: 100%;
+    }
+    .more-games{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .four-card{
+        display: grid;
+        padding: 50px;
+    }
+    .footer-nav{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-icon{
+        flex-direction: none;
+    }
+    .footer-copyright p{
+        text-align: center;
+    }
 }
