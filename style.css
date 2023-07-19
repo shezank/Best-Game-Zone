@@ -308,13 +308,14 @@ ul>li {
     justify-content: center;
     align-items: center;
     text-align: start;
-    padding: 25px 150px;
+    padding: 100px 150px 0px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .more-games {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 }
 
 .game-card {
@@ -339,8 +340,10 @@ ul>li {
 }
 
 .four-card {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
 }
 
 /* footer Style Start */
@@ -352,6 +355,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
 }
 
 .logo-amar-color {
