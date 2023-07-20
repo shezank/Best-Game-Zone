@@ -322,13 +322,17 @@ ul>li {
 
 .game-card {
     display: flex;
-    gap: 20px;
-    padding: 10px;
+    gap: 10px;
+    padding: 0px 5px;
     text-align: start;
     border-radius: 50px;
     background: #FFF;
     align-items: center;
 
+}
+
+.game-card:hover{
+    border: 2px solid #FF42A5 ;
 }
 
 .game-card img {
@@ -339,6 +343,10 @@ ul>li {
     font-size: 1.1rem;
     font-weight: 600;
     color: #0B0223;
+}
+
+.game-card h3:hover{
+    color: #F948B2;
 }
 
 .four-card {
@@ -374,6 +382,7 @@ footer {
 
 .footer-icon ul li {
     color: #FFF;
+    font-size: 1.8rem;
 }
 
 footer .fa-twitter {
@@ -425,6 +434,7 @@ footer .fa-twitter {
     }
     .careers-container{
         margin-top: -400px;
+        flex-direction: column-reverse;
     }
     .careers-img img{
         width: 100%;
